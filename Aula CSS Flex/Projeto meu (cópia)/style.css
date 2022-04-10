@@ -1,0 +1,42 @@
+.contorno-calc{
+    border: 1px solid grey;
+    max-width: 320px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#resultado{
+    border: 1px solid black;
+    margin: 5px;
+}
+#input{
+    border: 1px solid black;
+    margin: 5px;
+    min-height: 50px;
+}
+.entrada-de-dados{
+    border: none;
+    min-width: 98%;
+    height: 50px;
+}
+#teclado{
+    border: 1px solid black;
+    margin: 5px;
+    
+    
+}
+#teclado input{
+    min-width: 45px;
+    min-height: 35px;
+    margin: 3px;
+    
+}
+.teclado{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.linha1{
+    justify-content: space-between;
+}
